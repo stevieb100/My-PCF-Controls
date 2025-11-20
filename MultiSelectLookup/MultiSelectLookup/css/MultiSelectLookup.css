@@ -1,0 +1,8 @@
+/* Ensure the combo box takes up the full available width of the form field */
+.ms-ComboBox-container {
+    width: 100%;
+}
+
+.ms-ComboBox {
+    width: 100%;
+}

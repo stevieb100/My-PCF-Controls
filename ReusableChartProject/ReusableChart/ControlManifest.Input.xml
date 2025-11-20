@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="formus" constructor="ReusableChart" version="1.0.4" display-name-key="ReusableChart" description-key="ReusableChart description" control-type="standard" >
+    <property name="chartType" 
+              display-name-key="Chart Type" 
+              description-key="Type of chart to display" 
+              of-type="Enum" 
+              usage="input" 
+              required="true"
+              default-value="column">
+      <value name="column" display-name-key="Column">Column</value>
+      <value name="bar" display-name-key="Bar">Bar</value>
+    </property>
+
+    <property name="chartData" 
+              display-name-key="Chart Data (JSON)" 
+              description-key="The data for the chart as a JSON string" 
+              of-type="SingleLine.Text" 
+              usage="input" 
+              required="true" />
+              
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

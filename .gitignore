@@ -1,0 +1,26 @@
+Dependencies (Ignore in all subfolders)
+
+**/node_modules/
+**/pcf_node_modules/
+
+Build Outputs
+
+**/out/
+**/dist/
+**/generated/
+**/bin/
+**/obj/
+
+Visual Studio / VS Code
+
+.vs/
+.vscode/
+*.suo
+*.user
+
+Logs and OS Junk
+
+.log
+npm-debug.log
+.DS_Store
+Thumbs.db
